@@ -1,0 +1,14 @@
+{
+  "device_ip": "10.42.0.178",
+  "port": 554,
+  "channels": [
+    {"id": 1, "name": "Front / Forward", "camera_index": 1},
+    {"id": 2, "name": "Rear / Cargo", "camera_index": 2},
+    {"id": 3, "name": "Left / Driver", "camera_index": 3},
+    {"id": 4, "name": "Right / Passenger", "camera_index": 4}
+  ],
+  "detection": {
+    "conf_threshold": 0.45,
+    "target_classes": [0, 14, 15, 16, 17, 18, 19, 21]
+  }
+}
